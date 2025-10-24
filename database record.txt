@@ -1,0 +1,72 @@
+Read Me
+-------------
+Add Inventory
+	url    - localhost:8081/inventory/saveInventory
+	method - post
+	RequestBody - {
+					"productId": 1,
+					"quantity": 100
+				  }
+				  
+				  so on
+----------
+Get All Inventory
+	url    - localhost:8081/inventory/getAllInventory
+	method - get
+
+----------
+Get Inventory
+	url    - localhost:8081/inventory/getInventoryById/1
+	method - get
+
+=========================
+
+Add Product
+	url    - localhost:8082/product/addProduct
+	method - post
+	RequestBody - {
+					"name": "LAKHANI",
+					"description": "SPORTS SHOES",
+					"price": 1250,
+					"category" : "SHOES" 
+				}
+				
+				so on
+				  
+----------
+Get All product
+	url    - localhost:8082/product/getProducts
+	method - get
+
+----------
+Get product
+	url    - localhost:8082/product/getProductById/1
+	method - get
+	
+===========================
+
+
+Add Order
+	url    - localhost:8083/order/createOrder
+	method - post
+	RequestBody - {
+					"productId" : 1,
+					"quantity" : 70
+				}
+				
+				so on
+				  
+----------
+Get All Order
+	url    - localhost:8083/order/getOrders
+	method - get
+
+----------
+Get product
+	url    - localhost:8083/order/getOrderById/1
+	method - get
+-----------
+Delete Order
+	url    - localhost:8083/order/deleteOrder/1
+	method - delete
+	
